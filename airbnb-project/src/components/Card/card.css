@@ -1,0 +1,30 @@
+.card-container {
+font-size: 12px;
+width: 175px;
+}
+
+.gray {
+    color: #918e9b;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.c-img {
+width: 176px;
+height: 235px;
+
+object-fit: cover;
+border-radius: 10px;
+}
+
+.rating {
+    height: 14px;
+}
+
+.c-template {
+display: flex;
+align-items: center;
+
+}
