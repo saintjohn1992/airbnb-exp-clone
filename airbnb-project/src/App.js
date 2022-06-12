@@ -7,13 +7,8 @@ import data from "./data"
 const cards = data.map((items) => {
   return (
     <Card 
-    img = {items.coverImg}
-    rating = {items.stats.rating}
-    reviewCount = {items.stats.reviewCount}
-    location = {items.location}
-    title = {items.title}
-    price = {items.price}
-    openSpots = {items.openSpots} />
+    key={items.id}
+    item={items} />
     
   )
 })
