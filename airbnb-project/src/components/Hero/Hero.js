@@ -5,7 +5,7 @@ import Photogrid from "../../images/Peek.png";
 const Hero = () => {
 
     return (
-        <div className="hero-container">
+        <section className="hero-container">
             <img src={Photogrid} alt="" className="hero" />
 
             <h1 className="hero-title">Online Experiences</h1>
@@ -14,7 +14,7 @@ const Hero = () => {
             Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
 
             </p>
-        </div>
+        </section>
     )
 }
 

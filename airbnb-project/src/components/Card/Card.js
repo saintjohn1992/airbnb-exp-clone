@@ -1,21 +1,20 @@
 import "./card.css"
-import Katie from "../../images/Katie-Zaferes.jpeg"
 import Star from "../../images/star.png"
 
 
-const Card = () => {
+const Card = (props) => {
     
     return (
         <div className="card-container">
-         <img src={Katie} alt="" className="c-img" />
+        <img src={props.img} alt="" className="c-img" />
          <div className="c-template">
             <img src={Star} alt="" className="rating" />
-                <span className="gray">5.0 </span>
-                <span className="gray">(6) • </span>
-                <span className="gray">USA</span>
+                <span className="gray">{props.reviewCount} </span>
+                <span className="gray">({props.rating}) • </span>
+            <span className="gray">{props.location}</span>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><span className="bold">From $136</span> / person</p>
+            <p className="card-title">{props.title}</p>
+            <p className="card-price"><span className="bold">From ${props.price}</span> / person</p>
         </div>
     )
 }

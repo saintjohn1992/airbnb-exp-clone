@@ -1,6 +1,12 @@
 .card-container {
 font-size: 12px;
 width: 175px;
+width: 175px;
+font-size: 12px;
+flex: 0 0 auto;         /* ADD */
+display: flex;          /* ADD */
+flex-direction: column; 
+
 }
 
 .gray {
@@ -26,5 +32,24 @@ border-radius: 10px;
 .c-template {
 display: flex;
 align-items: center;
+}
 
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-price {
+    margin-top: auto;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.section {
+    padding: 20px;
 }
