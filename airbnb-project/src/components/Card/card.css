@@ -50,6 +50,8 @@ align-items: center;
     gap: 20px;
     overflow-x: auto;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-badge {

@@ -1,6 +1,9 @@
 import Katie from "../src/images/Katie-Zaferes.jpeg";
 import Wedding from "../src/images/wedding.jpg";
 import Biking from "../src/images/mountain-biking.jpg";
+import Piano from "../src/images/piano.jpg";
+import Graphics from "../src/images/graphics.jpg";
+import Surfing from "../src/images/surfing.jpg"
 
 
 
@@ -44,6 +47,46 @@ import Biking from "../src/images/mountain-biking.jpg";
         },
         location: "Norway",
         openSpots: 3,
+    },
+
+    {
+        id: 4,
+        title: "Piano lessons",
+        description: "If you have a love for the piano then join me as i'll teach you how to play the greatest masterpieces.",
+        price: 150,
+        coverImg: Piano,
+        stats: {
+            rating: 4.5,
+            reviewCount: 20
+        },
+        location: "Online",
+        openSpots: 5,
+    },
+    {
+        id: 5,
+        title: "Learn graphic designing",
+        description: "Join me as I show you how to design, modify, and build awesome things with graphic design. Are you up for the challenge?",
+        price: 80,
+        coverImg: Graphics,
+        stats: {
+            rating: 5.0,
+            reviewCount: 15
+        },
+        location: "Online",
+        openSpots: 15,
+    },
+    {
+        id: 6,
+        title: "Group surfing in Honolulu",
+        description: "Enjoy the beautiful beaches of Honolulu while learning at some of the best surf spots in the world",
+        price: 100,
+        coverImg: Surfing,
+        stats: {
+            rating: 4.0,
+            reviewCount: 9
+        },
+        location: "Hawaii",
+        openSpots: 1,
     }
 ]
 

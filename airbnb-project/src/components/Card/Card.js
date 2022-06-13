@@ -1,7 +1,6 @@
 import "./card.css"
 import Star from "../../images/star.png"
 
-
 const Card = (props) => {
 
         let badgeText

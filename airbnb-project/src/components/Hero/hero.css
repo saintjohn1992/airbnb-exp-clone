@@ -4,19 +4,36 @@ flex-direction: column;
 padding: 20px;
 }
 
+
 .hero {
     width: 60vw ;
     align-self: center;
 }
 
 .hero-title {
-    font-size: 36px;
-    font-weight: 600px;
     margin-bottom: 16px;
-    margin-left: 20px;
+    margin-left: 45px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+
+    width: 380px;
+    height: 40px;
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
   }
 
   .h-desc {
-      margin-top: 0px;
-      margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 45px;
+    width: 350px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 110%;
   }
