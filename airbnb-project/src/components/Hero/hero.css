@@ -37,3 +37,24 @@ padding: 20px;
     font-size: 20px;
     line-height: 110%;
   }
+
+  @media screen and (max-width: 480px) {
+    .hero {
+        width: 80vw;
+    }
+
+    .hero-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 355px;
+        margin-left: -3px;
+    }
+
+    .h-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+    }
+  }

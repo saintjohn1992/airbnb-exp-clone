@@ -63,3 +63,10 @@ align-items: center;
     border-radius: 2px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px ) {
+.cards-list {
+ flex-direction: column;
+}
+    
+}
